@@ -12,7 +12,8 @@
     "babel-core": "6.17.0",
     "babel-preset-lux": "2.0.2",
     "knex": "0.12.6",
-    "lux-framework": "1.2.3"
+    "lux-framework": "1.2.3",
+    "sqlite3": "5.0.0"
   },
   "engines": {
     "node": ">= 6.0"
