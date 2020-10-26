@@ -1,25 +1,25 @@
 export default {
 
   server: {
-  cors: {
-    origin: '*',
-    enabled: true,
+    cors: {
+      origin: '*',
+      enabled: true,
 
-    headers: [
-      'Accept',
-      'Content-Type'
-    ],
+      headers: [
+        'Accept',
+        'Content-Type'
+      ],
 
-    methods: [
-      'GET',
-      'POST',
-      'PATCH',
-      'DELETE',
-      'HEAD',
-      'OPTIONS'
-    ]
-  }
-},
+      methods: [
+        'GET',
+        'POST',
+        'PATCH',
+        'DELETE',
+        'HEAD',
+        'OPTIONS'
+      ]
+    }
+  },
 
   logging: {
     level: 'DEBUG',

@@ -1,7 +1,7 @@
 {
   "name": "tbsc-portal-api",
   "version": "0.0.1",
-  "description": "",
+  "description": "TBSC Job portal api",
   "scripts": {
     "start": "lux serve",
     "test": "lux test"
@@ -11,8 +11,10 @@
   "dependencies": {
     "babel-core": "6.17.0",
     "babel-preset-lux": "2.0.2",
+    "bcrypt-nodejs": "^0.0.3",
     "knex": "0.12.6",
     "lux-framework": "1.2.3",
+    "lux-oauth2": "0.0.3",
     "sqlite3": "5.0.0"
   },
   "engines": {

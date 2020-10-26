@@ -8,7 +8,16 @@ class User extends Model {
 
         jobs: {
           inverse: 'createdBy'
+        },
+        accessTokens: {
+          model: 'oauthAccessToken',
+          inverse: 'user'
+        },
+        refreshTokens: {
+          model: 'oauthRefreshToken',
+          inverse: 'user'
         }
+
   };
 }
 
