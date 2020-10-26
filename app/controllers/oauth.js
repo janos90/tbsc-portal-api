@@ -13,6 +13,11 @@ class OauthController extends Controller {
   ]
 
   token(request, response) {
+    console.log("request: "+request);
+    console.log(request);
+    console.log("response: "+response);
+    console.log(response);
+
     return OAuth2Server.requestToken(request, response);
   }
 }
