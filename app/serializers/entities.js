@@ -5,7 +5,8 @@ class EntitiesSerializer extends Serializer {
     'name',
     'email',
     'phone',
-    'address'
+    'address',
+    'image'
   ];
 
   hasOne = [

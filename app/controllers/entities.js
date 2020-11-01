@@ -10,7 +10,8 @@ class EntitiesController extends Controller {
     'permissions',
     'jobs',
     'children',
-    'parent'
+    'parent',
+    'image'
   ];
 }
 

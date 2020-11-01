@@ -5,6 +5,7 @@ export function up(schema) {
     table.string('email');
     table.string('phone');
     table.string('address');
+    table.string('image');
     table.integer('parent_id').index();
     table.timestamps();
 
