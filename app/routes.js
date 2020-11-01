@@ -4,7 +4,6 @@ export default function routes() {
   this.resource('forms');
   this.resource('sections');
   this.resource('elements');
-  this.resource('sections');
   this.resource('permissions');
   this.resource('jobs');
   this.resource('users');
