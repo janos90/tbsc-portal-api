@@ -4,7 +4,8 @@
   "description": "TBSC Job portal api",
   "scripts": {
     "start": "lux serve",
-    "test": "lux test"
+    "test": "lux test",
+    "heroku-postbuild": "lux db:create && lux db:migrate"
   },
   "author": "",
   "license": "MIT",
