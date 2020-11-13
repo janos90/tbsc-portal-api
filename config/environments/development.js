@@ -7,7 +7,9 @@ export default {
 
       headers: [
         'Accept',
-        'Content-Type'
+        'Content-Type',
+        'Access-Control-Allow-Headers',
+        'access-control-allow-origin'
       ],
 
       methods: [

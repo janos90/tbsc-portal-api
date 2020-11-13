@@ -8,7 +8,8 @@ export default {
       headers: [
         'Accept',
         'Content-Type',
-        'Access-Control-Allow-Headers'
+        'Access-Control-Allow-Headers',
+        'access-control-allow-origin'
       ],
 
       methods: [
