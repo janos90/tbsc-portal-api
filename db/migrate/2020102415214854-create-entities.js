@@ -6,6 +6,14 @@ export function up(schema) {
     table.string('phone');
     table.string('address');
     table.string('image');
+
+    table.string('forms');
+    table.string('permissions');
+    table.string('jobs');
+    table.string('children');
+    table.string('providers');
+    table.string('suppliers');
+
     table.integer('parent_id').index();
     table.timestamps();
 
