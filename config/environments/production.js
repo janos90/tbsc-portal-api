@@ -7,7 +7,8 @@ export default {
 
       headers: [
         'Accept',
-        'Content-Type'
+        'Content-Type',
+        'Access-Control-Allow-Headers'
       ],
 
       methods: [
@@ -22,8 +23,8 @@ export default {
   },
 
   logging: {
-    level: 'info',
-    format: 'text',
+    level: 'INFO',
+    format: 'JSON',
     enabled: true,
 
     filter: {
