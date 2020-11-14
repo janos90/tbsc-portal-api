@@ -8,7 +8,11 @@ class Form extends Model {
 
         jobs: {
           inverse: 'form'
+        },
+        suppliers: {
+          inverse: null
         }
+
       };
 
       static belongsTo = {

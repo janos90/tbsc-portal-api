@@ -17,9 +17,7 @@ class EntitiesSerializer extends Serializer {
     'forms',
     'permissions',
     'jobs',
-    'children',
-    'providers',
-    'suppliers'
+    'children'
   ];
 }
 

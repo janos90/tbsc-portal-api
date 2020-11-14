@@ -5,6 +5,10 @@ export function up(schema) {
     table.integer('entity_id').index();
     table.timestamps();
 
+    table.string('suppliers');
+
+
+
     table.index('created_at');
     table.index('updated_at');
   });

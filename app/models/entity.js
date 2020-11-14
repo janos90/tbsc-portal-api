@@ -17,14 +17,6 @@ class Entity extends Model {
         children: {
           inverse: 'parent',
           model: 'entity'
-        },
-        providers: {
-          inverse: 'suppliers',
-          model: 'entity'
-        },
-        suppliers: {
-          inverse: 'providers',
-          model: 'entity'
         }
       };
 
