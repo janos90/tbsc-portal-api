@@ -10,7 +10,8 @@ class Form extends Model {
           inverse: 'form'
         },
         suppliers: {
-          inverse: null
+          inverse: null,
+          model: 'entity'
         }
 
       };
