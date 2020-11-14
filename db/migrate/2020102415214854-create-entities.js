@@ -11,6 +11,7 @@ export function up(schema) {
     table.string('permissions');
     table.string('jobs');
     table.string('children');
+    table.string('listings');
 
     table.integer('parent_id').index();
     table.timestamps();

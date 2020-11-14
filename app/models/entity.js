@@ -17,6 +17,10 @@ class Entity extends Model {
         children: {
           inverse: 'parent',
           model: 'entity'
+        },
+        listings: {
+          inverse: 'suppliers',
+          model: 'form'
         }
       };
 
