@@ -2,7 +2,8 @@ import { Serializer } from 'lux-framework';
 
 class FormsSerializer extends Serializer {
   attributes = [
-    'name'
+    'name',
+    'sections'
   ];
 
   hasOne = [
@@ -10,7 +11,6 @@ class FormsSerializer extends Serializer {
   ];
 
   hasMany = [
-    'sections',
     'jobs',
     'suppliers'
   ];

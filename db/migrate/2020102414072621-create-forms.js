@@ -2,6 +2,7 @@ export function up(schema) {
   return schema.createTable('forms', table => {
     table.increments('id');
     table.string('name');
+    table.string('sections');
     table.integer('entity_id').index();
     table.timestamps();
 
