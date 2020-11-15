@@ -9,7 +9,7 @@ export default {
         'Accept',
         'Content-Type',
         'Access-Control-Allow-Headers',
-        'access-control-allow-origin'
+        'Access-Control-Allow-Origin'
       ],
 
       methods: [
