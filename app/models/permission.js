@@ -3,11 +3,11 @@ import { Model } from 'lux-framework';
 class Permission extends Model {
       static belongsTo = {
         entity: {
-          inverse: 'permission'
+          inverse: 'permissions'
         },
 
         user: {
-          inverse: 'permission'
+          inverse: 'permissions'
         }
   };
 }

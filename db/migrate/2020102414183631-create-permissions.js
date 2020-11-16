@@ -1,8 +1,8 @@
 export function up(schema) {
   return schema.createTable('permissions', table => {
     table.increments('id');
-    table.integer('entity_id').index();
     table.string('level');
+    table.integer('entity_id').index();
     table.integer('user_id').index();
     table.timestamps();
 
