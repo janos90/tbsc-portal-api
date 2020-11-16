@@ -11,5 +11,5 @@ export function up(schema) {
 }
 
 export function down(schema) {
-  return schema.dropTable('sections');
+  return schema.dropTable('subsections');
 }
