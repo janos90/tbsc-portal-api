@@ -1,8 +1,8 @@
 export function up(schema) {
-  return schema.createTable('forms', table => {
+  return schema.createTable('subsections', table => {
     table.increments('id');
-    table.string('name');
-    table.integer('entity_id').index();
+    table.string('title');
+    table.integer('section_id').index();
     table.timestamps();
 
     table.index('created_at');
@@ -11,5 +11,5 @@ export function up(schema) {
 }
 
 export function down(schema) {
-  return schema.dropTable('forms');
+  return schema.dropTable('sections');
 }
