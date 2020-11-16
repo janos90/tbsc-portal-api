@@ -1,6 +1,9 @@
 export default function routes() {
   this.resource('entities');
   this.resource('forms');
+  this.resource('sections');
+  this.resource('subsections');
+  this.resource('elements');
   this.resource('permissions');
   this.resource('jobs');
   this.resource('users');
