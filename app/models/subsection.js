@@ -16,4 +16,4 @@ class Subsection extends Model {
   };
 }
 
-export default Section;
+export default Subsection;

@@ -8,4 +8,4 @@ class SubsectionsController extends Controller {
   ];
 }
 
-export default SectionsController;
+export default SubsectionsController;

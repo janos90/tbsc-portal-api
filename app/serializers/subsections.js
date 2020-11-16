@@ -14,4 +14,4 @@ class SubsectionsSerializer extends Serializer {
   ];
 }
 
-export default SectionsSerializer;
+export default SubsectionsSerializer;
