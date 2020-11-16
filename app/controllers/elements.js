@@ -7,7 +7,7 @@ class ElementsController extends Controller {
     'input',
     'name',
     'radio',
-    'section'
+    'subsection'
   ];
 }
 

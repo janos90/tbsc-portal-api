@@ -10,7 +10,7 @@ class ElementsSerializer extends Serializer {
   ];
 
   hasOne = [
-    'section'
+    'subsection'
   ];
 }
 

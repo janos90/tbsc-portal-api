@@ -2,16 +2,16 @@ import { Model } from 'lux-framework';
 
 class Section extends Model {
   static hasMany = {
-    subsections: {
-      inverse: 'parent',
-      model: 'subsection'
+    elements: {
+      inverse: 'section',
+      model: 'element'
     }
   };
 
   static belongsTo = {
-    form: {
-      inverse: 'sections',
-      model: 'form'
+    section: {
+      inverse: 'subsections',
+      model: 'section'
     }
   };
 }

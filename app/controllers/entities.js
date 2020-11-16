@@ -11,8 +11,7 @@ class EntitiesController extends Controller {
     'jobs',
     'children',
     'parent',
-    'providers',
-    'suppliers',
+    'listings',
     'image'
   ];
 }

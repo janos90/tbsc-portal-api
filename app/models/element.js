@@ -2,7 +2,7 @@ import { Model } from 'lux-framework';
 
 class Element extends Model {
       static belongsTo = {
-        section: {
+        subsection: {
           inverse: 'elements'
         }
   };

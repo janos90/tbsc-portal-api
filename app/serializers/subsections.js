@@ -6,11 +6,11 @@ class SectionsSerializer extends Serializer {
   ];
 
   hasOne = [
-    'form'
+    'section'
   ];
 
   hasMany = [
-    'subsections'
+    'elements'
   ];
 }
 

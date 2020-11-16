@@ -13,9 +13,7 @@ class UsersSerializer extends Serializer {
 
   hasMany = [
     'permissions',
-    'jobs',
-    'accessTokens',
-    'refreshTokens'
+    'jobs'
   ];
 }
 

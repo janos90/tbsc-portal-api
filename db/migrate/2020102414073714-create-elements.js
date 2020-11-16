@@ -6,7 +6,7 @@ export function up(schema) {
     table.string('input');
     table.string('name');
     table.string('radio');
-    table.integer('section_id').index();
+    table.integer('subsection_id').index();
     table.timestamps();
 
     table.index('created_at');
