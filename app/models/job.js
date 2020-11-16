@@ -20,6 +20,7 @@ class Job extends Model {
         form: {
           inverse: 'jobs'
         }
+        
   };
 }
 
