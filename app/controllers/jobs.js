@@ -1,17 +1,6 @@
 import { Controller } from 'lux-framework';
-import Job from '../models/job';
 
 class JobsController extends Controller {
-  beforeAction = [
-    function logHeaders(request) {
-      console.log(request.headers);
-    }
-  ];
-
-  index(request) {
-    return Job.where(request.params.filter);
-  }
-
   params = [
     'jobNumber',
     'status',
