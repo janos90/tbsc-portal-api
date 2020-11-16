@@ -9,7 +9,6 @@ class Form extends Model {
           inverse: 'listings',
           model: 'entity'
         }
-
       };
 
       static belongsTo = {
