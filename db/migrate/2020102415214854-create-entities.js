@@ -7,13 +7,6 @@ export function up(schema) {
     table.string('address');
     table.string('image');
 
-    table.string('forms');
-    table.string('listings');
-    
-    table.string('permissions');
-    table.string('jobs');
-    table.string('children');
-
     table.integer('parent_id').index();
     table.timestamps();
 
