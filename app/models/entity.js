@@ -24,7 +24,7 @@ class Entity extends Model {
         }
       };
 
-      static belongsTo = {
+      static hasOne = {
         parent: {
           inverse: 'children',
           model: 'entity'
