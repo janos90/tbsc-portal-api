@@ -5,7 +5,6 @@ class FormsController extends Controller {
     'name',
     'entity',
     'sections',
-    'suppliers',
     'jobs'
   ];
 }

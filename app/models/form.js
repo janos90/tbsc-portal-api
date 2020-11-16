@@ -9,10 +9,6 @@ class Form extends Model {
     jobs: {
       inverse: 'form',
       model: 'job'
-    },
-    suppliers: {
-      inverse: 'listings',
-      model: 'entity'
     }
   };
 

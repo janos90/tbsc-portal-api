@@ -11,8 +11,7 @@ class FormsSerializer extends Serializer {
 
   hasMany = [
     'sections',
-    'jobs',
-    'suppliers'
+    'jobs'
   ];
 }
 

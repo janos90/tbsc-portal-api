@@ -10,12 +10,13 @@ class EntitiesSerializer extends Serializer {
   ];
 
   hasOne = [
-    'parent'
+    'parent',
+    'receiver'
   ];
 
   hasMany = [
     'forms',
-    'listings',
+    'suppliers',
     'permissions',
     'jobs',
     'children'

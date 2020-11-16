@@ -18,15 +18,19 @@ class Entity extends Model {
           inverse: 'parent',
           model: 'entity'
         },
-        listings: {
-          inverse: 'suppliers',
-          model: 'form'
+        suppliers: {
+          inverse: 'receiver',
+          model: 'entity'
         }
       };
 
       static belongsTo = {
         parent: {
           inverse: 'children',
+          model: 'entity'
+        },
+        receiver: {
+          inverse: 'suppliers',
           model: 'entity'
         }
   };
