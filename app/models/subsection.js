@@ -1,6 +1,6 @@
 import { Model } from 'lux-framework';
 
-class Section extends Model {
+class Subsection extends Model {
   static hasMany = {
     elements: {
       inverse: 'section',
