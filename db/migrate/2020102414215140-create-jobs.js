@@ -8,8 +8,9 @@ export function up(schema) {
     table.string('suburb');
     table.string('city');
     table.string('address');
-    table.integer('bedrooms');
+    table.string('bedrooms');
     table.string('description');
+    table.string('image');
     table.string('category');
     table.integer('created_by_id').index();
     table.integer('entity_id').index();

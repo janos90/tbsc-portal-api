@@ -11,7 +11,8 @@ class JobsSerializer extends Serializer {
     'address',
     'bedrooms',
     'description',
-    'category'
+    'category',
+    'image'
   ];
 
   hasOne = [

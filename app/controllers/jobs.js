@@ -15,7 +15,8 @@ class JobsController extends Controller {
     'createdBy',
     'entity',
     'form',
-    'files'
+    'files',
+    'image'
   ];
 }
 
