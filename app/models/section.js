@@ -3,7 +3,7 @@ import { Model } from 'lux-framework';
 class Section extends Model {
   static hasMany = {
     subsections: {
-      inverse: 'parent',
+      inverse: 'section',
       model: 'subsection'
     }
   };
