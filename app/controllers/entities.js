@@ -9,10 +9,10 @@ class EntitiesController extends Controller {
     'forms',
     'permissions',
     'jobs',
-    'children',
     'parent',
+    'children',
+    'receiver',
     'suppliers',
-    'receivers',
     'image'
   ];
 }

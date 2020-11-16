@@ -7,8 +7,8 @@ export function up(schema) {
     table.string('address');
     table.string('image');
 
-    table.integer('parent_id').index();
     table.integer('receiver_id').index();
+    table.integer('parent_id').index();
     table.timestamps();
 
     table.index('created_at');
