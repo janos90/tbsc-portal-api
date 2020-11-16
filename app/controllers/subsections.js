@@ -1,6 +1,6 @@
 import { Controller } from 'lux-framework';
 
-class SectionsController extends Controller {
+class SubsectionsController extends Controller {
   params = [
     'title',
     'elements',

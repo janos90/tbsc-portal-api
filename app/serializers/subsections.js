@@ -1,6 +1,6 @@
 import { Serializer } from 'lux-framework';
 
-class SectionsSerializer extends Serializer {
+class SubsectionsSerializer extends Serializer {
   attributes = [
     'title'
   ];
